@@ -3,11 +3,15 @@ body {
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
-  color: #7f7f7f;
-  background: #fff;
+  color: #5F5F5F;
+  background: #FFFFFF;
   height: 100%;
   position: relative;
-  margin: 0;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
   overflow-x: hidden;
 }
 
@@ -16,16 +20,18 @@ a {
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
+  text-decoration: none;
 }
 
 a:hover, a:active, a:focus {
   color: #124A4B;
   outline: none;
+  cursor: pointer;
 }
 
 p {
   margin-bottom: 30px;
-  font-family: "Arial";
+  font-family: "Avenir Next", "DengXian", Arial, serif;
   font-size: 18px;
   font-weight: 400;
   margin-left: 80px;
@@ -37,7 +43,8 @@ h1 {
   font-family: "Copperplate", Arial, serif;
   font-weight: 400;
   font-size: 35px;
-  margin-left: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
   letter-spacing: 1px;
 }
 
@@ -45,8 +52,9 @@ h2 {
   color: rgba(0, 0, 0, 0.7);
   font-family: "Copperplate", Arial, serif;
   font-weight: 400;
-  font-size: 32px;
-  margin-left: 25px;
+  font-size: 26px;
+  opacity: 75%;
+  margin-left: 60px;
   letter-spacing: 1px;
 }
 
@@ -54,40 +62,48 @@ h3 {
   color: rgba(0, 0, 0, 0.7);
   font-family: "Copperplate", Arial, serif;
   font-weight: 400;
-  font-size: 29px;
-  margin-left: 30px;
+  font-size: 23px;
+  margin-top: 5px;
   letter-spacing: 1px;
 }
 
-h4 {
+.header-inner h1 {
   color: rgba(0, 0, 0, 0.7);
   font-family: "Copperplate", Arial, serif;
   font-weight: 400;
-  font-size: 26px;
-  margin-left: 35px;
+  font-size: 35px;
+  margin-left: 20px;
   letter-spacing: 1px;
 }
 
-#page {
-  position: relative;
-  z-index: 2;
-  background: #fff;
+.header-inner h2 {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "Copperplate", Arial, serif;
+  font-weight: 400;
+  opacity: 100%;
+  font-size: 32px;
+  margin-left: 25px;
+  letter-spacing: 1px;
 }
 
 /* Header */
+
+#header {
+  float: left;
+  position: fixed;
+  background: url(Assets/Pictures/MenuBarBackground.png);
+  width: 100%;
+  height: 125px;
+  margin-top: 0px;
+  z-index: 2
+}
+
 #header:after {
-  position: absolute;
   bottom: -4px;
   left: 0;
   right: 0;
   content: '';
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-#header .header-inner {
-  float: left;
-  width: 100%;
-  margin: 20px;
 }
 
 #header h1 {
@@ -116,6 +132,7 @@ h4 {
 
 #header h2 {
   float: right;
+  opacity: 100%;
   margin-right: 50px;
   margin-bottom: 0;
   margin-top: 20px;
@@ -163,7 +180,7 @@ h4 {
 #header nav ul li a:hover {
   text-decoration: none;
   font-weight: 400px;
-  color: #91BEB3
+  color: #91BEB3;
 }
 
 #header nav ul li.active a, #header nav ul li.focus a {
@@ -175,17 +192,17 @@ h4 {
   position: absolute;
   color: #FFFFFF;
   background: #124A4B;
-  opacity: 90%;
+  opacity: 95%;
   border-radius: 20px;
   max-height: 0px;
-  transition: all 0.5s ease-out;
+  transition: all 0.25s ease-out;
   overflow: hidden;
 }
 
 #header nav ul li:hover ul {
   border-radius: 20px;
   max-height: 500px;
-  transition: all 0.3s ease-in;
+  transition: all 0.25s ease-in;
 }
 
 #header nav ul li ul li {
@@ -226,16 +243,212 @@ h4 {
   margin-left: 20px;
 }
 
-#floating-menu {
-
+#introduction h2 a {
+  text-decoration: none;
+  background: #124A4B;
+  margin-left: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #FFFFFF;
+  z-index: 1;
+  position: block;
+  border-radius: 20px;
+  transition: all 0.2s;
 }
 
-.Banner {
+#introduction h2 a:hover {
+  background: #9EBDB2;
+  color: #FFFFFF;
+  position: block;
+  border-radius: 20px;
+  transition: all 0.2s;
+  z-index: 1;
+}
+
+#introduction h2 a:active {
+  background: #FFFFFF;
+  color: #124A4B;
+}
+
+.banner {
   align: center;
   width: 1680px;
+  margin-bottom: 0px;
 }
 
+#ShroomSweeperBanner {
+  margin-top: 0px;
+}
+
+.bottombanner {
+  align: center;
+  width: 1680px;
+  margin: 0px;
+}
+
+.row {
+  width: 1200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+#team-row {
+  height: 550px;
+}
+
+.teamcell {
+  height: 550px;
+  width: 250px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 23px;
+  margin-right: 23px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  background: url(Assets/Pictures/CellBackground.png);
+  background-size: auto 100%;
+}
+
+.cell {
+  height: 550px;
+  width: 250px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 23px;
+  margin-right: 23px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.cell img, .teamcell img {
+  height: 200px;
+  width: 200px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.cell h3, .teamcell h3 {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "Copperplate", Arial, serif;
+  font-weight: 400;
+  font-size: 23px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.cell p {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.teamcell p {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+.cell a h3 {
+  text-decoration: none;
+}
+
+#teambutton a h3 {
+  text-decoration: none;
+  border-radius: 0px;
+  transition: all 0.2s ease-out;
+}
+
+#projectbutton a h3 {
+  text-decoration: none;
+  border-radius: 0px;
+  transition: all 0.2s ease-out;
+}
+
+#resultsbutton a h3 {
+  text-decoration: none;
+  border-radius: 0px;
+  transition: all 0.2s ease-out;
+}
+
+#humanpracticebutton a h3 {
+  text-decoration: none;
+  border-radius: 0px;
+  transition: all 0.2s ease-out;
+}
+
+#teambutton a:hover h3 {
+  background: #124A4B;
+  color: #FFFFFF;
+  border-radius: 20px;
+  transition: all 0.2s ease-in;
+}
+
+#projectbutton a:hover h3 {
+  background: #673E17;
+  color: #FFFFFF;
+  border-radius: 20px;
+}
+
+#resultsbutton a:hover h3 {
+  background: #863637;
+  color: #FFFFFF;
+  border-radius: 20px;
+}
+
+#humanpracticebutton a:hover h3 {
+  background: #155278;
+  color: #FFFFFF;
+  border-radius: 20px;
+}
+
+#teambutton a:active h3 {
+  background: #124A4B;
+  color: #124A4B;
+  border-radius: 20px;
+  transition: all 0.2s ease-in;
+}
+
+#projectbutton a:active h3 {
+  background: #673E17;
+  color: #673E17;
+  border-radius: 20px;
+}
+
+#resultsbutton a:active h3 {
+  background: #863637;
+  color: #863637;
+  border-radius: 20px;
+}
+
+#humanpracticebutton a:active h3 {
+  background: #155278;
+  color: #155278;
+  border-radius: 20px;
+}
 
 .text-align-center {
   text-align: center;
+}
+
+footer {
+  background-color: #124A4B;
+  height: 178px;
+  display: block;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
 }

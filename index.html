@@ -7,111 +7,180 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>ShroomSweeper GreatBay_SCIE</title>
   <link rel="stylesheet" href="style.css">
+
+  <script type="text/javascript"> <!--禁用右键-->
+        function stop() {
+            return false;
+        }
+        document.oncontextmenu = stop;
+  </script>
 </head>
 
 <body>
-  <div id="page">
+  <header id="header">
+    <div id="navbar">
+      <h1><img src="Assets/Pictures/GBSCIELogo.png" height="60px" /></h1>
 
-    <header id="header">
-      <div class="container">
-        <div class="header-inner">
-          <h1><img src="Assets/Pictures/GBSCIELogo.png" height="60px" /></h1>
-
-          <nav> <!--Navigation bar-->
+      <nav> <!--Navigation bar-->
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="">Team</a>
             <ul>
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li>
-                <a href="#">Team</a>
-                <ul>
-                  <li><a href="Team_Overview.html">Overview</a></li>
-                  <br />
-                  <li><a href="Team_Attributions.html">Attributions</a></li>
-                  <br />
-                  <li><a href="Team_Collaborations.html">Collaborations</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Project</a>
-                <ul>
-                  <li><a href="Project_Overview.html">Overview</a></li>
-                  <br />
-                  <li><a href="Project_Design.html">Design</a></li>
-                  <br />
-                  <li><a href="Project_Results.html">Results</a></li>
-                  <br />
-                  <li><a href="Project_Demonstration.html">Demonstration</a></li>
-                  <br />
-                  <li><a href="Project_Safety.html">Safety</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Model</a>
-                <ul>
-                  <li><a href="Model_Overview.html">Overview</a></li>
-                  <br />
-                  <li><a href="Model_Kinetics.html">Kinetics</a></li>
-                  <br />
-                  <li><a href="Model_Thermodynamics.html">Thermodynamics</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Human Practices</a>
-                <ul>
-                  <li><a href="Human_Practices_Overview.html">Overview</a></li>
-                  <br />
-                  <li><a href="Human_Practices_Interated_Human_Practices.html">Integrated Human Practices</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Notebook</a>
-                <ul>
-                  <li><a href="Notebook/Method.html">Method</a></li>
-                  <br />
-                  <li><a href="Notebook/Lab_Notes.html">Lab Notes</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Awards</a>
-              </li>
+              <li><a href="Team.html">Team</a></li>
+              <br />
+              <li><a href="Team_Attributions.html">Attributions</a></li>
+              <br />
+              <li><a href="Team_Collaborations.html">Collaborations</a></li>
             </ul>
-          </nav>
-          <h2 align="right"><img src="Assets/Pictures/ShroomSweeperLogo.png" height="60px;" /></h2>
-        </div>
-      </div>
-    </header>
+          </li>
+          <li>
+            <a href="">Project</a>
+            <ul>
+              <li><a href="Project_Description.html">Description</a></li>
+              <br />
+              <li><a href="Project_Design.html">Design</a></li>
+              <br />
+              <li><a href="Project_Results.html">Results</a></li>
+              <br />
+              <li><a href="Project_Demonstration.html">Demonstration</a></li>
+              <br />
+              <li><a href="Project_Safety.html">Safety</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">Model</a>
+            <ul>
+              <li><a href="Model_Overview.html">Overview</a></li>
+              <br />
+              <li><a href="Model_Kinetics.html">Kinetics</a></li>
+              <br />
+              <li><a href="Model_Thermodynamics.html">Thermodynamics</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">Human Practices</a>
+            <ul>
+              <li><a href="Human_Practices_Overview.html">Overview</a></li>
+              <br />
+              <li><a href="Human_Practices_Interated_Human_Practices.html">Integrated Human Practices</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">Notebook</a>
+            <ul>
+              <li><a href="Notebook_Method.html">Method</a></li>
+              <br />
+              <li><a href="Notebook_Lab_Notes.html">Lab Notes</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">Awards</a>
+          </li>
+        </ul>
+      </nav>
+      <h2><img src="Assets/Pictures/ShroomSweeperLogo.png" height="60px;" /></h2>
+    </div>
+  </header>
 
-    <img class="Banner" src="Assets/Pictures/ShroomSweeperBanner.png" alt="ShroomSweeper Banner">
+  <div id="ShroomSweeperBanner">
+    <img class="banner" src="Assets/Pictures/ShroomSweeperBanner.png" alt="ShroomSweeper Banner"/>
+  </div>
 
-    <div id="about-section">
-        <div id="introduction">
-          <h1>What is this project about?</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <div class="content">
+      <div id="introduction">
+        <div id="inspiration">
+          <h1>Inspiration</h1>
+          <p>
+            Globally, tens of thousands of people die from mushroom poisoning each year. It was commonly taught that colorful mushrooms are usually poisonous, while dull-colored ones are usually non-poisonous. However, this can be misleading at times. For instance, the bright-red-colored Chroogomphidius viscidus is actually non-toxic and nutritious,
+            while the white-colored innocent-looking Amanita verna contains one of the deadliest mushroom toxins - amanitins.
+            How are we going to discern toxic mushrooms from non-toxic ones, if their appearences are so deceitful?
+          </p>
+          <h2><a href="Project_Description.html">Find out more ></a></h2>
         </div>
-        <div class="side"> <!--This havent been decorated by css-->
+
+        <br />
+
+        <div id="abstract">
+          <h1>Abstract</h1>
+          <p>
+            We plan on developing a highly-efficient and membrane-based test kit for several common types of toxins present in mushrooms, such as amatoxins and phallotoxins.
+            According to our research, we plan on improving the LFIA (Lateral-Flow Immunoassay) technology, by using aptamers - single-stranded DNA folded into their secondary structures - instead of antibodies, which were originally used in the technology.
+            Due to the use of aptamers, we name our improved technology LFAA (Lateral-Flow Apta-Assay). This can hopefully improve the disadvantages of antibodies in immunoassays such as low heat-stability, occasional false-negative results,
+            and the reliance on the immunogenicity of the target molecules.
+          </p>
+          <p>
+            At the same time, we plan on developing a sandwich assay, which involves both aptamers and antibodies. We hope that this would combine the benefits of using either ligand, and enhance the test results by a substantial amount.
+            We choose to use scFv molecules, namely Single-Chained antibody Fragments, instead of actual antibodies. Because scFvs are monoclonal, meaning that they can be synthesized through normal proteinsynthesis procedures in genetically engineerd cells.
+            This not only simplifies the production process of antibodies hugely (as normal procedures involve the immune system of living animals), but also reduces cost.
+          </p>
+          <p>
+            Furthermore, we plan on amplify the test results by using the RPA technology in order to enhance the sensitivity of the test, and design a mobile application to qualitatively and quatitatively analyze the results.
+          </p>
+          <p>
+            Last but not least, we wrap the core technologies and reagents into a test kit hardware, whose outer shape resembles that of a pregnancy test.
+            We hope that this test kit can help local mushroom pickers to identify several common species of poisonous mushrooms, and to reduce cases of intoxication and death worldwide.
+          </p>
+        </div>
+        <!--
+
+        <div class="sidebar">
+          <h2>Sidebar</h2>
+          <ul>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+          </ul>
           <aside class="sidebar">
-            <div class="row">
-              <div class="#">
-                <h3>Sidebar</h3>
-                <ul>
-                  <li><a href="#">1</a></li>
-                  <li><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                </ul>
-              </div>
-              <div class="#">
-                <h3>Paragraph</h3>
-                <p>Paragraph here</p >
-              </div>
-            </div>
-          </aside>
-        </div>
-			</div>
+        </aside>
+      -->
+      </div>
+    <br />
+      <div class="row">
 
-      <div id="floating-menu"> <!--这里本来想写浮动边栏的，你可以接着写下去，css里也有对应的style已经创建出来但是还没写-->
+        <div id="teambutton" class="cell">
+          <img src="Assets/Pictures/TeamButton.png" />
+          <a href="Team.html"><h3>Team</h3></a>
+          <p>
+            We are 15 enthusiastic students from Shenzhen College of International Education, eager to experience the colorful world of synthetic biology.
+          </p>
+        </div>
+
+        <div id="projectbutton" class="cell">
+          <img src="Assets/Pictures/ProjectButton.png" />
+          <a href="Project_Overview.html"><h3>Project Design</h3></a>
+          <p>
+            Our project, ShroomSweeper, based on LFAA and scFv-aptamer sandwich-assay technologies, "sweeps" the minefield of mushrooms for the mushroom pickers.
+          </p>
+        </div>
+
+        <div id="resultsbutton" class="cell">
+          <img src="Assets/Pictures/ResultsButton.png" />
+          <a href="Project_Results"><h3>Results</h3></a>
+          <p>
+            No results yet. This is just a placeholder text. What were you expecting? Today's only July 8th, and we haven't even formally entered the wet lab stage yet!!
+          </p>
+        </div>
+
+        <div id="humanpracticebutton" class="cell">
+          <img src="Assets/Pictures/HumanPracticeButton.png" />
+          <a href=Human_Practices_Overview><h3>Human Practice</h3></a>
+          <p>
+            We interviewed and investigated a variety of experts as well as the general public. Valuable suggestions were returned, and we aim on raising the social awareness of the field of synthetic biology and the topic of mushroom poisoning.
+          </p>
+        </div>
 
       </div>
-		</div>
+      <br />
+
+    </div>
+  </div>
+
+  <footer>
+    <img class="bottombanner" src="Assets/Pictures/BottomBanner.png" alt="Bottom Banner" />
+  </footer>
+
 </body>
 </html>
