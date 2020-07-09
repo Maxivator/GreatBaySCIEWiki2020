@@ -1,9 +1,9 @@
 body {
   font-family: Arial, sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.7;
-  color: #5F5F5F;
+  color: #202020;
   background: #FFFFFF;
   height: 100%;
   position: relative;
@@ -440,8 +440,13 @@ h3 {
   border-radius: 20px;
 }
 
-.text-align-center {
+.text-align-center, .image-center {
   text-align: center;
+}
+
+.figure-description {
+  font-size: 15px;
+  margin: 0px;
 }
 
 footer {
@@ -451,4 +456,15 @@ footer {
   position: relative;
   display: inline-block;
   vertical-align: top;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+ul li {
+  margin-left: 100px;
+  font-family: "Avenir Next", "DengXian", Arial, serif;
+  font-size: 18px;
+  font-weight: 400;
 }
