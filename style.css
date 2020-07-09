@@ -243,7 +243,7 @@ h3 {
   margin-left: 20px;
 }
 
-#introduction h2 a {
+.jump-button a {
   text-decoration: none;
   background: #124A4B;
   margin-left: 15px;
@@ -258,7 +258,7 @@ h3 {
   transition: all 0.2s;
 }
 
-#introduction h2 a:hover {
+.jump-button a:hover {
   background: #9EBDB2;
   color: #FFFFFF;
   position: block;
@@ -267,7 +267,7 @@ h3 {
   z-index: 1;
 }
 
-#introduction h2 a:active {
+.jump-button a:active {
   background: #FFFFFF;
   color: #124A4B;
 }
