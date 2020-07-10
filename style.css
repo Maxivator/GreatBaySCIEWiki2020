@@ -12,7 +12,6 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 0;
-  overflow-x: hidden;
 }
 
 a {
@@ -164,7 +163,7 @@ h3 {
   display: static;
   font-family: "Copperplate", Arial, sans-serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 1.4em;
   padding: 12px 15px;
   position: relative;
   text-decoration: none;
@@ -274,7 +273,9 @@ h3 {
 
 .banner {
   align: center;
-  width: 1680px;
+  width: auto;
+  height: auto;
+  width: 100%;
   margin-bottom: 0px;
 }
 
@@ -284,7 +285,9 @@ h3 {
 
 .bottombanner {
   align: center;
-  width: 1680px;
+  width: auto;
+  height: auto;
+  width: 100%;
   margin: 0px;
 }
 
