@@ -12,6 +12,7 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 0;
+  line-height: 37px;
 }
 
 a {
@@ -33,17 +34,37 @@ p {
   font-family: "Avenir Next", "DengXian", Arial, serif;
   font-size: 18px;
   font-weight: 400;
-  margin-left: 80px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 220px;
+}
+
+#header h1 {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "Copperplate", Arial, serif;
+  font-weight: 400;
+  font-size: 35px;
+  margin-left: 20px;
+  margin-top: 18px;
+  letter-spacing: 1px;
+}
+
+#header h2 {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "Copperplate", Arial, serif;
+  font-weight: 400;
+  opacity: 100%;
+  font-size: 32px;
+  margin-left: 25px;
+  letter-spacing: 1px;
 }
 
 h1 {
   color: rgba(0, 0, 0, 0.7);
   font-family: "Copperplate", Arial, serif;
   font-weight: 400;
-  font-size: 35px;
-  margin-left: 40px;
-  margin-top: 20px;
+  font-size: 35px ;
+  margin-left: 160px;
+  margin-top: 60px;
   letter-spacing: 1px;
 }
 
@@ -53,7 +74,7 @@ h2 {
   font-weight: 400;
   font-size: 26px;
   opacity: 75%;
-  margin-left: 60px;
+  margin-left: 180px;
   letter-spacing: 1px;
 }
 
@@ -63,25 +84,7 @@ h3 {
   font-weight: 400;
   font-size: 23px;
   margin-top: 5px;
-  letter-spacing: 1px;
-}
-
-.header-inner h1 {
-  color: rgba(0, 0, 0, 0.7);
-  font-family: "Copperplate", Arial, serif;
-  font-weight: 400;
-  font-size: 35px;
-  margin-left: 20px;
-  letter-spacing: 1px;
-}
-
-.header-inner h2 {
-  color: rgba(0, 0, 0, 0.7);
-  font-family: "Copperplate", Arial, serif;
-  font-weight: 400;
-  opacity: 100%;
-  font-size: 32px;
-  margin-left: 25px;
+  margin-left: 200px;
   letter-spacing: 1px;
 }
 
@@ -372,24 +375,28 @@ h3 {
 #teambutton a h3 {
   text-decoration: none;
   border-radius: 0px;
+  margin-left: 0px;
   transition: all 0.2s ease-out;
 }
 
 #projectbutton a h3 {
   text-decoration: none;
   border-radius: 0px;
+  margin-left: 0px;
   transition: all 0.2s ease-out;
 }
 
 #resultsbutton a h3 {
   text-decoration: none;
   border-radius: 0px;
+  margin-left: 0px;
   transition: all 0.2s ease-out;
 }
 
 #humanpracticebutton a h3 {
   text-decoration: none;
   border-radius: 0px;
+  margin-left: 0px;
   transition: all 0.2s ease-out;
 }
 
@@ -397,30 +404,35 @@ h3 {
   background: #124A4B;
   color: #FFFFFF;
   border-radius: 20px;
+  margin-left: 0px;
   transition: all 0.2s ease-in;
 }
 
 #projectbutton a:hover h3 {
   background: #673E17;
   color: #FFFFFF;
+  margin-left: 0px;
   border-radius: 20px;
 }
 
 #resultsbutton a:hover h3 {
   background: #863637;
   color: #FFFFFF;
+  margin-left: 0px;
   border-radius: 20px;
 }
 
 #humanpracticebutton a:hover h3 {
   background: #155278;
   color: #FFFFFF;
+  margin-left: 0px;
   border-radius: 20px;
 }
 
 #teambutton a:active h3 {
   background: #124A4B;
   color: #124A4B;
+  margin-left: 0px;
   border-radius: 20px;
   transition: all 0.2s ease-in;
 }
@@ -428,28 +440,52 @@ h3 {
 #projectbutton a:active h3 {
   background: #673E17;
   color: #673E17;
+  margin-left: 0px;
   border-radius: 20px;
 }
 
 #resultsbutton a:active h3 {
   background: #863637;
   color: #863637;
+  margin-left: 0px;
   border-radius: 20px;
 }
 
 #humanpracticebutton a:active h3 {
   background: #155278;
   color: #155278;
+  margin-left: 0px;
   border-radius: 20px;
+}
+
+#teambutton p, #projectbutton p, #resultsbutton p, #humanpracticebutton p {
+  line-height: 28px;
 }
 
 .text-align-center, .image-center {
   text-align: center;
 }
 
+.image-right {
+  width: 500px;
+  height: auto;
+  float: right;
+  text-align: center;
+  margin-right: 80px;
+}
+
+.image-right img {
+  margin-left: 10px;
+}
+
 .figure-description {
   font-size: 15px;
   margin: 0px;
+  text-align: center;
+}
+
+.MathJax_SVG_Display {
+  text-align: center;
 }
 
 footer {
@@ -466,7 +502,8 @@ ul {
 }
 
 ul li {
-  margin-left: 100px;
+  margin-left: 200px;
+  margin-right: 220px;
   font-family: "Avenir Next", "DengXian", Arial, serif;
   font-size: 18px;
   font-weight: 400;
