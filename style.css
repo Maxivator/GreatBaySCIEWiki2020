@@ -13,6 +13,7 @@ body {
   margin-bottom: 0px;
   padding: 0;
   line-height: 37px;
+  overflow-x: hidden;
 }
 
 a {
@@ -50,7 +51,7 @@ p {
 
 #header h2 {
   color: rgba(0, 0, 0, 0.7);
-  font-family: "Copperplate", Arial, serif
+  font-family: "Copperplate", Arial, serif;
   font-weight: 400;
   opacity: 100%;
   font-size: 32px;
@@ -137,7 +138,7 @@ h3 {
   opacity: 100%;
   margin-right: 50px;
   margin-bottom: 0;
-  margin-top: 20px;
+  margin-top: 24px;
 }
 
 #header nav {
@@ -298,10 +299,10 @@ h3 {
   width: 1500px;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-left: 220px;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
+  position: relative;
+  left: 50%;
 }
 
 #team-row {
@@ -319,6 +320,7 @@ h3 {
   margin-right: 23px;
   float: left;
   position: relative;
+  text-align: center;
   overflow: hidden;
   background: url(Assets/Materials/CellBackground.png);
   background-size: auto 100%;
@@ -330,9 +332,11 @@ h3 {
 
 .teamcell h3 {
   margin-left: 0px;
+  font-size: 12px;
 }
 
 .cell {
+  display: block;
   height: 550px;
   width: 200px;
   margin-top: 0px;
@@ -340,15 +344,14 @@ h3 {
   margin-left: 23px;
   margin-right: 23px;
   float: left;
+  text-align: center;
+  right: 50%;
   position: relative;
-  overflow: hidden;
 }
 
 .cell img, .teamcell img {
   height: 150px;
   width: 150px;
-  margin-top: 20px;
-  margin-left: 20px;
 }
 
 .cell h3, .teamcell h3 {
