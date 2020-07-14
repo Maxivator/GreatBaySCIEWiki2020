@@ -50,7 +50,7 @@ p {
 
 #header h2 {
   color: rgba(0, 0, 0, 0.7);
-  font-family: "Copperplate", Arial, serif;
+  font-family: "Copperplate", Arial, serif
   font-weight: 400;
   opacity: 100%;
   font-size: 32px;
@@ -295,7 +295,7 @@ h3 {
 }
 
 .row {
-  width: 1200px;
+  width: 1500px;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: auto;
@@ -319,6 +319,14 @@ h3 {
   overflow: hidden;
   background: url(Assets/Materials/CellBackground.png);
   background-size: auto 100%;
+}
+
+.teamcell p {
+  line-height: 20px;
+}
+
+.teamcell h3 {
+  margin-left: 0px;
 }
 
 .cell {
@@ -372,28 +380,7 @@ h3 {
   text-decoration: none;
 }
 
-#teambutton a h3 {
-  text-decoration: none;
-  border-radius: 0px;
-  margin-left: 0px;
-  transition: all 0.2s ease-out;
-}
-
-#projectbutton a h3 {
-  text-decoration: none;
-  border-radius: 0px;
-  margin-left: 0px;
-  transition: all 0.2s ease-out;
-}
-
-#resultsbutton a h3 {
-  text-decoration: none;
-  border-radius: 0px;
-  margin-left: 0px;
-  transition: all 0.2s ease-out;
-}
-
-#humanpracticebutton a h3 {
+#teambutton a h3, #projectbutton a h3, #resultsbutton a h3, #humanpracticebutton a h3, #modelbutton a h3 {
   text-decoration: none;
   border-radius: 0px;
   margin-left: 0px;
@@ -429,6 +416,13 @@ h3 {
   border-radius: 20px;
 }
 
+#modelbutton a:hover h3 {
+  background: #DD9851;
+  color: #FFFFFF;
+  margin-left: 0px;
+  border-radius: 20px;
+}
+
 #teambutton a:active h3 {
   background: #124A4B;
   color: #124A4B;
@@ -458,7 +452,14 @@ h3 {
   border-radius: 20px;
 }
 
-#teambutton p, #projectbutton p, #resultsbutton p, #humanpracticebutton p {
+#modelbutton a:active h3 {
+  background: #DD9851;
+  color: #DD9851;
+  margin-left: 0px;
+  border-radius: 20px;
+}
+
+#teambutton p, #projectbutton p, #resultsbutton p, #humanpracticebutton p, #modelbutton p {
   line-height: 28px;
 }
 
