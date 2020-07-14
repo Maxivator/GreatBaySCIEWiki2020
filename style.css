@@ -296,13 +296,12 @@ h3 {
 }
 
 .row {
-  width: 1500px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  left: 50%;
+  margin: 0;
+  padding-left: 6%;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 #team-row {
@@ -336,22 +335,19 @@ h3 {
 }
 
 .cell {
-  display: block;
-  height: 550px;
-  width: 200px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 23px;
-  margin-right: 23px;
+  height: 550px%;
+  width: 250px;
+  margin: 0 18px;
   float: left;
-  text-align: center;
-  right: 50%;
   position: relative;
+  overflow: hidden;
 }
 
 .cell img, .teamcell img {
   height: 150px;
   width: 150px;
+  margin-left: 50px;
+  margin-top: 50px;
 }
 
 .cell h3, .teamcell h3 {
@@ -371,6 +367,7 @@ h3 {
   margin-left: 20px;
   margin-right: 20px;
   font-size: 15px;
+  line-height: 12px;
   text-align: center;
 }
 
