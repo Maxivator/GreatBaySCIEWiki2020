@@ -297,7 +297,7 @@ h3 {
 
 .row {
   margin: 0;
-  padding-left: 6%;
+  padding-left: 8%;
   border: 0;
   font-size: 100%;
   font: inherit;
@@ -335,9 +335,9 @@ h3 {
 }
 
 .cell {
-  height: 550px%;
+  height: 550px;
   width: 250px;
-  margin: 0 18px;
+  margin: 0 0.5%;
   float: left;
   position: relative;
   overflow: hidden;
