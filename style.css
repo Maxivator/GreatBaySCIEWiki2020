@@ -194,7 +194,7 @@ h3 {
 #header nav ul li ul {
   position: absolute;
   color: #FFFFFF;
-  background: #7A4814;
+  background: #e7963f;
   opacity: 95%;
   border-radius: 20px;
   max-height: 0px;
@@ -296,15 +296,14 @@ h3 {
 }
 
 .row {
-  width: 75%;
+  width: 90%;
   height: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 8%;
+  margin-right: 5%;
   padding-left: 0px;
   border: 0;
-  left: 50%;
   font-size: 100%;
   font: inherit;
   overflow-x: hidden;
@@ -344,7 +343,10 @@ h3 {
 .cell {
   height: 550px;
   width: 240px;
-  margin: 0 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: calc((90% - 1200px)/10);
+  margin-right: calc((90% - 1200px)/10);
   position: relative;
   display: inline-block;
   align-self: center;
