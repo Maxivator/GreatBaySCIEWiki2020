@@ -17,7 +17,7 @@ body {
 }
 
 a {
-  color: #124A4B;
+  color: #7a4814;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
@@ -25,7 +25,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #124A4B;
+  color: #7a4814;
   outline: none;
   cursor: pointer;
 }
@@ -120,11 +120,11 @@ h3 {
 }
 
 #header h1 i {
-  color: #124A4B;
+  color: #7a4814;
 }
 
 #header h1 a {
-  color: #124A4B;
+  color: #7a4814;
   text-decoration: none;
 }
 
@@ -183,7 +183,7 @@ h3 {
 #header nav ul li a:hover {
   text-decoration: none;
   font-weight: 400px;
-  color: #91BEB3;
+  color: #d6a36c;
 }
 
 #header nav ul li.active a, #header nav ul li.focus a {
@@ -194,7 +194,7 @@ h3 {
 #header nav ul li ul {
   position: absolute;
   color: #FFFFFF;
-  background: #124A4B;
+  background: #7A4814;
   opacity: 95%;
   border-radius: 20px;
   max-height: 0px;
@@ -230,14 +230,14 @@ h3 {
 
 #header nav ul li ul li a:hover {
   position: block;
-  color: #124A4B;
+  color: #7A4814;
   background: #FFFFFF;
   opacity: 90%;
   border-radius: 20px;
 }
 
 #header nav ul li ul li a:active {
-  background: #124A4B;
+  background: #7A4814;
   color: #FFFFFF;
 }
 
@@ -248,7 +248,7 @@ h3 {
 
 .jump-button a {
   text-decoration: none;
-  background: #124A4B;
+  background: #7a4814;
   margin-left: 15px;
   padding-left: 15px;
   padding-right: 15px;
@@ -262,7 +262,7 @@ h3 {
 }
 
 .jump-button a:hover {
-  background: #9EBDB2;
+  background: #d6a36c;
   color: #FFFFFF;
   position: block;
   border-radius: 20px;
@@ -272,7 +272,7 @@ h3 {
 
 .jump-button a:active {
   background: #FFFFFF;
-  color: #124A4B;
+  color: #7a4814;
 }
 
 .banner {
@@ -296,11 +296,12 @@ h3 {
 }
 
 .row {
-  width: 85%;
+  width: 75%;
+  height: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10%;
+  margin-right: 10%;
   padding-left: 0px;
   border: 0;
   left: 50%;
@@ -500,7 +501,7 @@ h3 {
 }
 
 footer {
-  background-color: #124A4B;
+  background-color: #7a4814;
   height: 178px;
   display: block;
   position: relative;
