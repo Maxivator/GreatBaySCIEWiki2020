@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "SF Pro Text", sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 1.7;
@@ -32,7 +32,7 @@ a:hover, a:active, a:focus {
 
 p {
   margin-bottom: 30px;
-  font-family: "Avenir Next", "DengXian", Arial, serif;
+  font-family: "Avenir Next", "DengXian", "SF Pro Text", serif;
   font-size: 18px;
   font-weight: 400;
   margin-left: 200px;
@@ -45,7 +45,7 @@ p {
 
 #header h1 {
   color: rgba(0, 0, 0, 0.7);
-  font-family: "Copperplate", Arial, serif;
+  font-family: "Copperplate", "SF Pro Text", serif;
   font-weight: 400;
   font-size: 35px;
   margin-left: 20px;
@@ -55,7 +55,7 @@ p {
 
 #header h2 {
   color: rgba(0, 0, 0, 0.7);
-  font-family: "Copperplate", Arial, serif;
+  font-family: "Copperplate", "SF Pro Text", serif;
   font-weight: 400;
   opacity: 100%;
   font-size: 32px;
@@ -65,7 +65,7 @@ p {
 
 h1 {
   color: rgba(0, 0, 0, 0.7);
-  font-family: "Copperplate", Arial, serif;
+  font-family: "Copperplate", "SF Pro Text", serif;
   font-weight: 400;
   font-size: 35px ;
   margin-left: 160px;
@@ -75,7 +75,7 @@ h1 {
 
 h2 {
   color: rgba(0, 0, 0, 0.7);
-  font-family: "Copperplate", Arial, serif;
+  font-family: "Copperplate", "SF Pro Text", serif;
   font-weight: 400;
   font-size: 26px;
   opacity: 100%;
@@ -85,7 +85,7 @@ h2 {
 
 h3 {
   color: rgba(0, 0, 0, 0.7);
-  font-family: "Copperplate", Arial, serif;
+  font-family: "Copperplate", "SF Pro Text", serif;
   font-weight: 400;
   font-size: 23px;
   margin-top: 5px;
@@ -120,7 +120,7 @@ h3 {
   font-size: 30px;
   margin-bottom: 0;
   text-transform: uppercase;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "Roboto", "SF Pro Text", sans-serif;
 }
 
 #header h1 i {
@@ -169,7 +169,7 @@ h3 {
 
 #header nav ul li a {
   display: static;
-  font-family: "Copperplate", Arial, sans-serif;
+  font-family: "Copperplate", "SF Pro Text", sans-serif;
   font-weight: 400;
   font-size: 1.4em;
   padding: 12px 15px;
@@ -223,7 +223,7 @@ h3 {
 
 #header nav ul li ul li a {
   color: #FFFFFF;
-  font-family: "Copperplate", Arial, sans-serif;
+  font-family: "Copperplate", "SF Pro Text", sans-serif;
   font-weight: 200;
   font-size: 19px;
   padding: 12px 15px;
@@ -383,7 +383,7 @@ h3 {
 
 .cell h3, .teamcell h3 {
   color: rgba(0, 0, 0, 0.7);
-  font-family: "Copperplate", Arial, serif;
+  font-family: "Copperplate", "SF Pro Text", serif;
   font-weight: 400;
   font-size: 23px;
   margin-top: 5px;
@@ -539,17 +539,18 @@ ul {
 ul li {
   margin-left: 200px;
   margin-right: 220px;
-  font-family: "Avenir Next", "DengXian", Arial, serif;
+  font-family: "Avenir Next", "DengXian", "SF Pro Text", serif;
   font-size: 18px;
   font-weight: 400;
 }
 
 #specialbackground {
-  height: 350px;
+  height: 425px;
   padding-top: 5px;
   padding-bottom: 40px;
   background-color: #62350d;
   margin-top: 0px;
+  padding-right: 200px;
 }
 
 #specialbackground h1, #specialbackground p{
