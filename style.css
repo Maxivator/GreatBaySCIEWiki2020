@@ -39,6 +39,10 @@ p {
   margin-right: 220px;
 }
 
+#MushroomBanner {
+  background-color: #62350d;
+}
+
 #header h1 {
   color: rgba(0, 0, 0, 0.7);
   font-family: "Copperplate", Arial, serif;
@@ -74,7 +78,7 @@ h2 {
   font-family: "Copperplate", Arial, serif;
   font-weight: 400;
   font-size: 26px;
-  opacity: 75%;
+  opacity: 100%;
   margin-left: 180px;
   letter-spacing: 1px;
 }
@@ -183,7 +187,7 @@ h3 {
 #header nav ul li a:hover {
   text-decoration: none;
   font-weight: 400px;
-  color: #d6a36c;
+  color: #af6415;
 }
 
 #header nav ul li.active a, #header nav ul li.focus a {
@@ -195,7 +199,6 @@ h3 {
   position: absolute;
   color: #FFFFFF;
   background: #e7963f;
-  opacity: 95%;
   border-radius: 20px;
   max-height: 0px;
   transition: all 0.25s ease-out;
@@ -225,20 +228,21 @@ h3 {
   font-size: 19px;
   padding: 12px 15px;
   position: static;
-  text-decoration: none;
+  font-weight: 400;
 }
 
 #header nav ul li ul li a:hover {
   position: block;
   color: #7A4814;
   background: #FFFFFF;
-  opacity: 90%;
   border-radius: 20px;
+  font-weight: 400;
 }
 
 #header nav ul li ul li a:active {
   background: #7A4814;
   color: #FFFFFF;
+  font-weight: 400;
 }
 
 #about-section {
@@ -248,7 +252,7 @@ h3 {
 
 .jump-button a {
   text-decoration: none;
-  background: #7a4814;
+  background: #e7963f;
   margin-left: 15px;
   padding-left: 15px;
   padding-right: 15px;
@@ -262,8 +266,8 @@ h3 {
 }
 
 .jump-button a:hover {
-  background: #d6a36c;
-  color: #FFFFFF;
+  background: #FFFFFF;
+  color: #7A4814;
   position: block;
   border-radius: 20px;
   transition: all 0.2s;
@@ -271,8 +275,12 @@ h3 {
 }
 
 .jump-button a:active {
-  background: #FFFFFF;
-  color: #7a4814;
+  background: #7A4814;
+  color: #FFFFFF;
+}
+
+.jump-button h2 {
+  opacity: 100%;
 }
 
 .banner {
@@ -281,9 +289,14 @@ h3 {
   height: auto;
   width: 100%;
   margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 #ShroomSweeperBanner {
+  margin-top: 0px;
+}
+
+.content {
   margin-top: 0px;
 }
 
@@ -314,6 +327,7 @@ h3 {
   height: 550px;
   padding-left: 0px;
   width: 1200px;
+  margin-left: 250px;
 }
 
 .teamcell {
@@ -353,11 +367,18 @@ h3 {
   overflow: hidden;
 }
 
-.cell img, .teamcell img {
+.cell img {
   height: 150px;
   width: 150px;
   margin-left: 45px;
   margin-top: 45px;
+}
+
+.teamcell img {
+  height: 150px;
+  width: 150px;
+  margin-left: 0px;
+  margin-top: 0px;
 }
 
 .cell h3, .teamcell h3 {
@@ -521,4 +542,21 @@ ul li {
   font-family: "Avenir Next", "DengXian", Arial, serif;
   font-size: 18px;
   font-weight: 400;
+}
+
+#specialbackground {
+  height: 350px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  background-color: #62350d;
+  margin-top: 0px;
+}
+
+#specialbackground h1, #specialbackground p{
+  color: #FFFFFF;
+}
+
+#MushroomBanner {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
