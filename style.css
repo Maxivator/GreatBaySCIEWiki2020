@@ -548,7 +548,7 @@ ul li {
   height: calc(2120px - 100%);
   padding-top: 5px;
   padding-bottom: 40px;
-  background-color: #62350d;
+  background-color: #ecbf9e;
   margin-top: 0px;
   margin-bottom: 20px;
   padding-right: 200px;
@@ -563,12 +563,34 @@ ul li {
   padding-bottom: 0px;
 }
 
-#MushroomNiang {
+#Mushroomrain1 {
   float: right;
-  margin-right: 150px;
+  margin-right: 80px;
 }
 
-#MushroomNiang img {
-  height: 550px;
+#Mushroomrain1 img {
+  height: 530px;
+  width: auto;
+}
+#specialbackground2 {
+  height: calc(2120px - 100%);
+  padding-top: 5px;
+  padding-bottom: 40px;
+  background-color: #FFFFFF;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-right: 200px;
+}
+
+#specialbackground2 h1, #specialbackground2 p{
+  color: #000000;
+}
+#Mushroombottom3 {
+  float: left;
+  margin-left: 80px;
+}
+
+#Mushroombottom3 img {
+  height: 450px;
   width: auto;
 }
