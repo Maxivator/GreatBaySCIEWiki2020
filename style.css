@@ -33,6 +33,7 @@ a:hover, a:active, a:focus {
 p {
   margin-bottom: 30px;
   font-family: "Avenir Next", "DengXian", "Helvetica Neue", serif;
+  color: #000000;
   font-size: 18px;
   font-weight: 400;
   margin-left: 200px;
@@ -555,10 +556,9 @@ ul li {
   height: calc(2120px - 100%);
   padding-top: 5px;
   padding-bottom: 40px;
-  background-color: #ecbf9e;
+  background-color: rgb(150, 86, 47);
   margin-top: 0px;
   margin-bottom: 20px;
-  padding-right: 200px;
 }
 
 #specialbackground h1, #specialbackground p{
@@ -571,33 +571,53 @@ ul li {
 }
 
 #Mushroomrain1 {
-  float: right;
-  margin-right: 80px;
+  float: left;
+  margin-left: 80px;
+  margin-right: 30px;
 }
 
 #Mushroomrain1 img {
-  height: 530px;
+  height: 300px;
   width: auto;
 }
 #specialbackground2 {
   height: calc(2120px - 100%);
-  padding-top: 5px;
+  padding-top: 20px;
   padding-bottom: 40px;
   background-color: #FFFFFF;
   margin-top: 0px;
   margin-bottom: 20px;
-  padding-right: 200px;
+  padding-left: 250px;
 }
 
 #specialbackground2 h1, #specialbackground2 p{
   color: #000000;
 }
+
+#specialbackground3 {
+  height: calc(2120px - 80%);
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: #FFFFFF;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-right: 150px;
+}
+
+#specialbackground3 img {
+  width: 300px;
+  height: auto;
+  float: right;
+}
+
 #Mushroombottom3 {
-  float: left;
-  margin-left: 80px;
+  float: right;
+  margin-top: 30px;
+  margin-right: 80px;
+  margin-left: 50px;
 }
 
 #Mushroombottom3 img {
-  height: 450px;
+  height: 350px;
   width: auto;
 }
