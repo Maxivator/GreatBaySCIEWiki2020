@@ -33,7 +33,6 @@ a:hover, a:active, a:focus {
 p {
   margin-bottom: 30px;
   font-family: "Avenir Next", "DengXian", "Helvetica Neue", serif;
-  color: #000000;
   font-size: 18px;
   font-weight: 400;
   margin-left: 200px;
@@ -552,6 +551,14 @@ ul li {
   font-weight: 400;
 }
 
+ol li {
+  margin-left: 200px;
+  margin-right: 220px;
+  font-family: "Avenir Next", "DengXian", "Helvetica Neue", serif;
+  font-size: 18px;
+  text-decoration: bold;
+}
+
 #specialbackground {
   height: calc(2120px - 100%);
   padding-top: 5px;
@@ -620,4 +627,8 @@ ul li {
 #Mushroombottom3 img {
   height: 350px;
   width: auto;
+}
+
+.normal-list li {
+  margin: 0px;
 }
